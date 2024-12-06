@@ -1,4 +1,4 @@
-FROM fedora:38-aarch64
+FROM fedora:41-aarch64
 
 RUN  dnf -y update
 RUN  dnf -y install libgpiod-utils python3-libgpiod swig python2 python-setuptools python-devel python3-devel python-setuptools python3-setuptools unzip curl wget make gcc which git
